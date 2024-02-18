@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.AddMemorizationController">
+   <children>
+      <Label layoutX="372.0" layoutY="35.0" prefHeight="83.0" prefWidth="512.0" text="مركز المدينة القرآني" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="476.0" layoutY="105.0" prefHeight="83.0" prefWidth="351.0" text="شعبة الحفاظ" textAlignment="CENTER" textFill="#e8dc5e">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="58.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="249.0" fitWidth="237.0" layoutX="-19.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@شعار%20مركز%20المدينة-04.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="addMemorization" alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="624.0" mnemonicParsing="false" onAction="#saveMemorization" prefHeight="46.0" prefWidth="230.0" style="-fx-background-color: #0f334b; -fx-border-radius: 50000;" text="اضافة تسميع " textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="AD-Rsail Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="startPageTextField" layoutX="844.0" layoutY="404.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <Label layoutX="600.0" layoutY="259.0" prefHeight="40.0" prefWidth="131.0" text="نوع التسميع" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="291.0" layoutY="259.0" prefHeight="40.0" prefWidth="57.0" text="التاريخ" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="844.0" layoutY="364.0" prefHeight="40.0" prefWidth="191.0" text="رقم الصفحة الاولى" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="memorizationTypeComboBox" layoutX="533.0" layoutY="299.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <DatePicker fx:id="datePicker" layoutX="158.0" layoutY="299.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <TextField fx:id="endPageTextField" layoutX="529.0" layoutY="404.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <Label layoutX="539.0" layoutY="358.0" prefHeight="40.0" prefWidth="191.0" text="رقم الصفحة الاخيرة" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mistakeCountTextField" layoutX="158.0" layoutY="392.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <Label layoutX="233.0" layoutY="358.0" prefHeight="40.0" prefWidth="117.0" text="عدد الاخطاء" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="644.0" layoutY="461.0" prefHeight="40.0" prefWidth="76.0" text="التقييم" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="evaluationComboBox" layoutX="529.0" layoutY="501.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <ComboBox fx:id="NameComboBox" layoutX="844.0" layoutY="299.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <Label layoutX="978.0" layoutY="259.0" prefHeight="40.0" prefWidth="57.0" text="الاسم" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

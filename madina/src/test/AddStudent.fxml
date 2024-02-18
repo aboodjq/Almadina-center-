@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.AddStudentController">
+   <children>
+      <Button fx:id="addStudent" alignment="CENTER" contentDisplay="CENTER" layoutX="194.0" layoutY="353.0" mnemonicParsing="false" onAction="#saveStudent" prefHeight="46.0" prefWidth="230.0" style="-fx-background-color: #0f334b; -fx-border-radius: 50000;" text="اضافة الطالب" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="AD-Rsail Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="390.0" layoutY="17.0" prefHeight="83.0" prefWidth="512.0" text="مركز المدينة القرآني" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="458.0" layoutY="85.0" prefHeight="83.0" prefWidth="351.0" text="شعبة الحفاظ" textAlignment="CENTER" textFill="#e8dc5e">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="58.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="321.0" fitWidth="351.0" layoutX="-6.0" layoutY="-53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@شعار%20مركز%20المدينة-04.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nameField" layoutX="846.0" layoutY="286.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <TextField fx:id="familyPhoneField" layoutX="844.0" layoutY="489.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <TextField fx:id="addressField" layoutX="537.0" layoutY="490.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #D9D9D9;" />
+      <Label layoutX="980.0" layoutY="246.0" prefHeight="40.0" prefWidth="57.0" text="الاسم" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="671.0" layoutY="248.0" prefHeight="40.0" prefWidth="57.0" text="الصف" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="938.0" layoutY="448.0" prefHeight="40.0" prefWidth="100.0" text="رقم الاهل" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="654.0" layoutY="450.0" prefHeight="40.0" prefWidth="74.0" text="الموقع" textAlignment="CENTER" textFill="#0f334b">
+         <font>
+            <Font name="Air Strip Arabic Regular 2" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="gradeField" layoutX="579.0" layoutY="286.0" prefWidth="150.0" style="-fx-background-color: #D9D9D9;" />
+
+
+      
+     
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

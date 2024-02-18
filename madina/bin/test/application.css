@@ -1,0 +1,11 @@
+.delete-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+}
+
+.arrow-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+}
